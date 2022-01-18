@@ -18,7 +18,7 @@ public class ApiController {
 
     @Autowired
     private RestTemplate restTemplate;
-    /* asdasdasd */
+    /* asdasdasdas */
 
     @GetMapping(path = "/{id}")
     public PokemonModel getById(@PathVariable("id") Long id) {
